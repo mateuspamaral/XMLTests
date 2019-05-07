@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="Texto center"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:background="@color/colorRosaEscuro"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Texto center/left"
+        android:gravity="center|left"
+        android:textColor="@color/colorText"
+        android:background="@color/colorRosaClaro"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Texto botom/right"
+        android:gravity="bottom|right"
+        android:textColor="@color/colorText"
+        android:background="@color/colorAzul"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:text="Texto center/top"
+            android:gravity="center|top"
+            android:textColor="@color/colorText"
+            android:background="@color/colorRosaEscuro"
+            android:textSize="25dp"/>
+
+        <EditText
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:text="Texto botom"
+            android:gravity="bottom|center"
+            android:textColor="@color/colorText"
+            android:background="@color/colorAzulEscuro"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enviar"
+        android:textColorHint="@color/colorText"
+        android:background="@color/colorAzulBotao"
+        android:textSize="20dp"/>
+</LinearLayout>
